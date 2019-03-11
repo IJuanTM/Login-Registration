@@ -1,0 +1,18 @@
+body {
+    background-color: lightgray;
+}
+
+.footer {
+    min-height: 50px;
+    background-color: #E9ECEF;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+.content {
+    min-height: 50vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
