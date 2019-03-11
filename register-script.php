@@ -7,7 +7,7 @@ $email = sanitize($_POST["email"]);
 if (!empty($email)) {
 
   $sql = "SELECT * 
-               FROM `register` 
+              FROM `register` 
               WHERE `email` = '$email'";
 
   $result = mysqli_query($conn, $sql);
